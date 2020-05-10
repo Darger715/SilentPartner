@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_bluetooth_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bluetooth_screen"
+    android:orientation="vertical"
+    tools:context=".Bluetooth">
+
+    <RelativeLayout
+        android:id="@+id/activity_bluetooth_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textview_in_bluetooth_connect"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:gravity="center_horizontal"
+            android:text="Нет подключенных устройств"
+            android:textColor="#CC99FE"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/reload_bluetooth_connect"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="580dp"
+            android:background="@mipmap/reload_bluetooth_connecct_2" />
+
+        <Button
+            android:id="@+id/button_check_bluettooth_connect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="350dp"
+            android:background="@android:color/transparent"
+            android:text="Нажмите, чтобы проверить"
+            android:textColor="#8B00FF" />
+
+        <CheckBox
+            android:id="@+id/autoreload_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="500dp"
+            android:text="Автообновление списка устройств" />
+    </RelativeLayout>
+</RelativeLayout>

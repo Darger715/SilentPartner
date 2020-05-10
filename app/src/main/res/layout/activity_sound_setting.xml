@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sound_setting">
+
+    <Switch
+        android:id="@+id/sound_setting_switch_on_off"
+        android:layout_width="290dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="400dp"
+        android:background="@android:color/transparent"
+        android:gravity="left"
+        android:text="ЗВУК СИГНАЛА             "
+        android:textColor="#839e2e"
+        android:textOff="OFF"
+        android:textOn="ON" />
+
+    <Button
+        android:id="@+id/sound_setting_button_settingVolume"
+        android:layout_width="290dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="450dp"
+        android:background="@android:color/transparent"
+        android:gravity="left"
+        android:text="Индивидуальный звук"
+        android:textColor="#839e2e" />
+
+    <TextView
+        android:id="@+id/sound_setting_textview_volumeLevel"
+        android:layout_width="290dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="500dp"
+        android:background="@android:color/transparent"
+        android:gravity="left"
+        android:textColor="#fff"
+        />
+
+
+</RelativeLayout>

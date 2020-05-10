@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_setting_screen"
+    android:orientation="vertical"
+    tools:context=".Main_setting">
+
+
+    <Button
+        android:id="@+id/button_notification_main_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:layout_marginTop="350dp"
+        android:text="Уведомления"
+        android:textColor="@android:color/darker_gray" />
+
+    <Button
+        android:id="@+id/button_icons_main_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="Настройка иконок"
+        android:textColor="@android:color/darker_gray"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"/>
+
+    <Button
+        android:id="@+id/button_instruction_main_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="Инструкция"
+        android:textColor="@android:color/darker_gray"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"/>
+
+    <Button
+        android:id="@+id/about_app_main_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="О приложении"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="500dp"/>
+
+
+</RelativeLayout>
