@@ -79,7 +79,7 @@ handler_switch_on_off = new Handler(){
         t.start();*/
 
 
-//Смена уровня звука - handler
+//Смена уровня звука - Handler
         //0 - Не меняется TextView
         // 1 - Смена показателей звука
         // 2 - Вибрация включена
